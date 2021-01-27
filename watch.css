@@ -1,0 +1,62 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #5D6D7E;
+}
+.container{
+    width: 700px;
+    height: 700px;
+    background:#3498DB ;
+    left: 450px;
+    position: absolute;
+    border-radius: 22px;
+}
+.button{
+    display: flex;
+    position: absolute;
+    left: 150px;
+    bottom: 50px;
+    
+}
+.button button{
+    margin: 20px;
+    height:50px;
+    width: 100px;
+    color:aliceblue;
+    background-color:#F39C12 ;
+    border: white 3px solid;
+    font-size: medium;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background:linear-gradient( #21618C, #6C3483) ;
+    border-radius: 50%;
+    border: white 4px solid;
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+#display{
+    font-size: 40px;
+    position: absolute;
+    left: 270px;
+    top: 180px;
+    color: white;
+}
+.stopwatch{
+    font-size: 40px;
+    border: white 3px solid;
+    border-radius: 90px;
+    position: absolute;
+    left: 690px;
+    top: 300px;
+
+}
+.button {
+    transition-duration: 0.4s;
+  }
+  
+  .button button:hover {
+    background-color:#5B2C6F;
+    color: white;
+  }
